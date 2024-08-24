@@ -1,0 +1,134 @@
+/*
+ * H: 197
+ * S:  18
+ * V: 20, 90
+ *
+ * H: 197
+ * S:  80
+ * V: 80 #299ecc
+ */
+
+html {
+	background-color: #000000;
+	color: #bcdae6;
+	font-family: Sans-serif;
+}
+
+input[type='text'], textarea {
+	background-color: #2a3033;
+	border-color: #bcdae6;
+	color: #bcdae6;
+}
+
+button, select {
+	display: block;
+	background-color: #2a3033;
+	border-color: #bcdae6;
+	color: #bcdae6;
+	border-radius: 4px;
+}
+
+.login {
+	/* display: none; */
+}
+
+div.control {
+	/* display: none; */
+	background-color: #2a3033;
+}
+
+div.header {
+	position: relative;
+}
+
+.channels-holder {
+	overflow-x: scroll;
+	background-color: #2a3033;
+}
+
+.channels td {
+	text-align: center;
+}
+
+.channels td.link-odd {
+	display: none;
+}
+
+.channels td.ch-hidden {
+	display: none;
+}
+
+button.mute-off {
+	width: 70px;
+}
+button.mute-on {
+	width: 70px;
+	border-color: red;
+	color: red;
+}
+
+button.send-off {
+	border-color: grey;
+	color: grey;
+	width: 70px;
+}
+button.send-on {
+	width: 70px;
+}
+
+.fader {
+	writing-mode: bt-lr;
+	-webkit-appearance: slider-vertical;
+	border: 2px;
+	width: 25px;
+	height: 200px;
+	outline: none;
+	transition: opacity .2s;
+	background-color: #000;
+}
+.fader::-moz-range-thumb {
+	width: 50px;
+	height: 50px; 
+	background: transparent;
+	border: 5px solid #299ecc;
+}
+.fader.send-off::-moz-range-thumb {
+	border: 5px solid #505050;
+}
+.fader.mute-on::-moz-range-thumb {
+	border: 5px solid #ff0000;
+}
+.fader.mute-on.send-off::-moz-range-thumb {
+	border: 5px solid #a72828;
+}
+.fader::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	width: 50px;
+	height: 50px; 
+	background: transparent;
+	border: 5px solid #299ecc;
+}
+.fader.send-off::-webkit-slider-thumb {
+	border: 5px solid #505050;
+}
+.fader.mute-on::-webkit-slider-thumb {
+	border: 5px solid #ff0000;
+}
+.fader.mute-on.send-off::-webkit-slider-thumb {
+	border: 5px solid #a72828;
+}
+.fadervalue {
+	white-space: nowrap;
+	overflow-x: hidden;
+}
+
+span.namecode { font-size: small; }
+span.name { width: 75px; display: block; }
+.color-0 { background: #000080; color: white; }
+.color-1 { background: #0000FF; color: white; }
+.color-2 { background: #964B00; color: white; }
+.color-3 { background: #FF0000; color: white; }
+.color-4 { background: #FFFF00; color: black; }
+.color-5 { background: #008000; color: white; }
+.color-6 { background: #00FFFF; color: black; }
+.color-7 { background: #700070; color: white; }
